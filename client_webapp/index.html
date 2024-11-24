@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Book - Add Contact</title>
+    <link rel="stylesheet" href="style-add-contact.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">Add Contact</a>
+            <a href="contact-list.html" class="nav-link">Contact List</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Phone Book - Add Contact</h1>
+        <form id="phoneBookForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="phone" placeholder="Phone Number" required>
+            <button type="submit">Add Contact</button>
+        </form>
+
+        <button onclick="window.location.href='contact-list.html'">Go to Contact List</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
